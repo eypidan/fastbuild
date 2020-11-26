@@ -401,7 +401,7 @@ ForEach( .Platform in .Platforms )
 #if __WINDOWS__
     Alias( 'All' )
     {
-        .Targets        = { 'All-x64Clang',
+        .Targets        = { //'All-x64Clang',
                             'All-x64'
                           }
     }
